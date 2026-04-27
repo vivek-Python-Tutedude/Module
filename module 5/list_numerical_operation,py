@@ -1,0 +1,19 @@
+num = [10, 5, 5.5, 9, 50.6, 1000, -5]
+num2 = [10, 5, 5.5, 9, 50.6, 1000, -5, "h1"]
+
+# min() => it find smallest no in List
+
+# print(num.min())
+print("min no in list is: ", min(num))
+# print("min no is: ", min(num2)) # '<' not supported between instances of 'str' and 'int'
+
+# max => it find max no in List
+print("max no in list is: ", max(num))
+# print("max no is: ", max(num2)) # '>' not supported between instances of 'str' and 'int'
+
+
+# sum() => it used for finding sum of total no in List
+
+print("sum of total no in list is: ", (num))
+# print(sum(num2)) # unsupported operand type(s) for +: 'float' and 'str'
+
