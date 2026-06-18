@@ -1,0 +1,11 @@
+# for  loops
+l = ['mike', 103.4, 2005]
+for i in l:
+    print(i)
+for q in ['mike', 103.4, 2005] :
+    print(1)
+for i in range(1, 11):
+    print(i)
+# print apple 10 times
+for i in range(1, 11):
+    print(f'{i}apple')

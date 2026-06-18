@@ -1,0 +1,35 @@
+'''
+while True :     # infinite loop
+    print("vivek")
+    
+    
+num = 10
+while num <= 20 : # infinite loop
+    print(num)
+    num = num - 2
+    
+ '''
+
+correct_password = "vivek"
+while True :
+    user_password = input("Enter the password : ")
+    if user_password == correct_password: 
+        print("password is correct")
+        break
+    else :
+        print("Wrong Password, Try again!")
+        
+print("Logged in!")
+
+'''
+num = 10
+while num <= 20 : # normal loop
+    print(num)
+    num = num + 2
+
+num = 20
+while num >= 10 :   # normal loop
+    print(num)
+    num = num - 2
+
+'''
