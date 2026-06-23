@@ -1,3 +1,10 @@
 this is a test file.
 we are learning file handling in python
 modes to open a file are : r, w, a, x, t, b
+
+This content has been wriiten using 'a' mode.
+'a' mode is used it add the contents or appends the content to the end of the file
+Goode bye!
+This content has been wriiten using 'a' mode.
+'a' mode is used it add the contents or appends the content to the end of the file
+Goode bye!

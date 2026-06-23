@@ -14,6 +14,6 @@ print("max no in list is: ", max(num))
 
 # sum() => it used for finding sum of total no in List
 
-print("sum of total no in list is: ", (num))
+print("sum of total no in list is: ", sum(num))
 # print(sum(num2)) # unsupported operand type(s) for +: 'float' and 'str'
 

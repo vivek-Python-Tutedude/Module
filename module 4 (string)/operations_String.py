@@ -39,7 +39,7 @@ print("vivek " == "vivek")
 # strip() => remove uneccarey space from string
 s1 = "     vivek          "
 print(s1.strip())
-s2 = "      vivek           s" #emove uneccarey space 
+s2 = "      vivek           s" #remove uneccarey space 
 print(s2.strip())
 
 print(s1.strip() == "vivek")

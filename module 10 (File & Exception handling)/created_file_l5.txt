@@ -1,0 +1,4 @@
+
+This content has been wriiten using 'a' mode.
+'a' mode is used it add the contents or appends the content to the end of the file
+Goode bye!
