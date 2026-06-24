@@ -1,0 +1,20 @@
+{
+    "student1": {
+        "roll": 101,
+        "name": "vivek",
+        "percentage": 94.12,
+        "sprots": true
+    },
+    "student2": {
+        "roll": 102,
+        "name": "akash",
+        "percentage": 94.6,
+        "sprots": false
+    },
+    "student3": {
+        "roll": 103,
+        "name": "nandu",
+        "percentage": 94.1,
+        "sprots": false
+    }
+}
