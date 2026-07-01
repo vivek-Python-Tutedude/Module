@@ -12,7 +12,7 @@ Write a Python program that:
 
 ## 🎯 Objective
 
-The objective of this program is to understand how to read data from a text file and handle file-related errors using exception handling in Python.
+The objective of this program is to learn basic file handling and exception handling in Python by reading a text file and displaying an appropriate error message when the file is not found.
 
 ---
 
@@ -24,10 +24,13 @@ The objective of this program is to understand how to read data from a text file
 
 ---
 
-## 📁 File Used
+## 📁 Files Used
 
 ```
 sample.txt
+sample3.txt
+task1.py
+README.md
 ```
 
 ---
@@ -35,13 +38,10 @@ sample.txt
 ## 📚 Concepts Covered
 
 - `open()` function
-- File modes
-  - `rt` – Read Text Mode
+- File Modes (`rt`)
 - `readline()`
-- `try`
-- `except`
+- `try` and `except`
 - `FileNotFoundError`
-- `os.path.exists()`
 - Context Manager (`with` statement)
 
 ---
@@ -49,16 +49,17 @@ sample.txt
 ## ▶️ How to Run
 
 1. Open the project in Visual Studio Code.
-2. Make sure the `sample.txt` file is present in the same folder as the Python program.
-3. Open the terminal.
-4. Run the program using:
+2. Place `sample.txt` in the same folder as `task1.py`.
+3. Run the program using:
 
 ```bash
 python task1.py
 ```
 
-5. The program reads the file line by line and displays its contents.
-6. If the file does not exist, an appropriate error message is displayed.
+4. The program will:
+   - Read and display the contents of `sample.txt`.
+   - Attempt to open `sample3.txt`.
+   - Display an error message if `sample3.txt` does not exist.
 
 ---
 
@@ -74,45 +75,32 @@ It contains multiple lines.
 ## 💻 Sample Output
 
 ```
-Reading file content:
+If sample.txt file exist
 
+Reading file content:
 Line 1: This is a sample text file.
 Line 2: It contains multiple lines.
-```
 
-### If the file does not exist
+If sample3.txt file does not exist
 
-```
-Error: The file 'sample.txt' was not found.
+Error: The file 'sample3.txt' was not found.
 ```
 
 ---
 
 ## 📖 Program Explanation
 
-### Step 1
+### Case 1: File Exists
 
-Import the `os` module to work with file-related operations.
+- Opens `sample.txt` in read mode.
+- Reads the first two lines using `readline()`.
+- Displays the file contents.
 
-### Step 2
+### Case 2: File Does Not Exist
 
-Store the file name in a variable.
-
-### Step 3
-
-Use a `try` block to attempt opening the file in read mode.
-
-### Step 4
-
-Read the first and second lines using the `readline()` method.
-
-### Step 5
-
-Display the contents of the file line by line.
-
-### Step 6
-
-If the file is missing, the `except FileNotFoundError` block catches the exception and displays an error message instead of terminating the program.
+- Attempts to open `sample3.txt`.
+- Since the file is missing, `FileNotFoundError` is raised.
+- The `except` block catches the error and prints an appropriate message.
 
 ---
 
@@ -130,9 +118,9 @@ Task1/
 ## ✅ Features
 
 - Reads a text file line by line.
-- Uses `readline()` for reading file content.
-- Implements exception handling using `try` and `except`.
-- Prevents the program from crashing when the file is not found.
+- Demonstrates the use of `readline()`.
+- Uses `try` and `except` for exception handling.
+- Prevents the program from crashing when a file is missing.
 - Uses the `with` statement for automatic file handling.
 
 ---
@@ -142,5 +130,3 @@ Task1/
 **Vivek Ananda Satpute**
 
 Python Assignment – File Handling and Exception Handling
-
----
