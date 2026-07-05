@@ -8,7 +8,7 @@ class Student :
     This is a class student to manage student info and activities
     
     """
-    def study(self):
+    def study(self): # insted of self we can give any valid variable name but by convention we use self
         print(f"Self is : {self}")     
         print("The student is studies for 3 Hr a day!")
         
