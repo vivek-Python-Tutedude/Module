@@ -1,0 +1,6 @@
+ak ak-bro@example.com 1234567890
+vk vk_123@example.com 0987654321
+ck ck.101@mydomain.com 9999999999
+Invalid emails are:
+-@example.com
+_123abc@example.coms
